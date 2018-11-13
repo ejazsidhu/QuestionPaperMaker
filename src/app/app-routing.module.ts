@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: 'auth',
     loadChildren: './auth/auth.module#AuthModule'
+  },
+  {
+    path: 'paper',
+    loadChildren: './paper/paper.module#PaperModule'
   }
   ,
   {
