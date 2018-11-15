@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-html, body { height: 100%; background-color:rgb(206, 233, 151);}
+html, body { height: 100%; background:url('/assets/images/background.png'), white;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 ::-webkit-scrollbar {
     width: 3px;
@@ -17,6 +17,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn-color{
     background: linear-gradient(to bottom right, #16d516 15%,#ebe303 100%);
     color:#fff;
+    border-radius: 30px;
 }
 .btn-color span{
     margin-left: 45px;
